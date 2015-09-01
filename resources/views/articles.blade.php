@@ -5,7 +5,7 @@
 <body>
 <ul>
     @foreach($articles as $article)
-        <li>Name : {{$article->name}} | Author : {{$article->author}}</li>
+        <li>Name : {{$article->name}} | Author : {{$article->author}} | {{$article->created_at}}</li>
     @endforeach
 </ul>
 </body>
